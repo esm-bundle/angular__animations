@@ -6,7 +6,7 @@ specifiers:
   '@angular/compiler-cli': 13.3.0
   '@angular/core': 13.3.0
   '@rollup/plugin-babel': 5.3.1
-  chai: 4.3.4
+  chai: 4.3.6
   concurrently: 7.0.0
   husky: 7.0.4
   karma: 6.3.17
@@ -29,7 +29,7 @@ devDependencies:
   '@angular/compiler-cli': 13.3.0_c9617b06dccf7a85fc513437b488b5e2
   '@angular/core': 13.3.0
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.1
-  chai: 4.3.4
+  chai: 4.3.6
   concurrently: 7.0.0
   husky: 7.0.4
   karma: 6.3.17
@@ -825,14 +825,15 @@ packages:
     resolution: {integrity: sha512-MWPzG54AGdo3nWx7zHZTefseM5Y1ccM7hlQKHRqJkPozUaw3hNbBTMmLn16GG2FUzjR13Cr3NPfhIieX5PzXDA==}
     dev: true
 
-  /chai/4.3.4:
-    resolution: {integrity: sha512-yS5H68VYOCtN1cjfwumDSuzn/9c+yza4f3reKXlE5rUg7SFcCEy90gJvydNgOYtblyf4Zi6jIWRnXOgErta0KA==}
+  /chai/4.3.6:
+    resolution: {integrity: sha512-bbcp3YfHCUzMOvKqsztczerVgBKSsEijCySNlHHbX3VG1nskvqjz5Rfso1gGwD6w6oOV3eI60pKuMOV5MV7p3Q==}
     engines: {node: '>=4'}
     dependencies:
       assertion-error: 1.1.0
       check-error: 1.0.2
       deep-eql: 3.0.1
       get-func-name: 2.0.0
+      loupe: 2.3.4
       pathval: 1.1.1
       type-detect: 4.0.8
     dev: true
@@ -2085,6 +2086,12 @@ packages:
       streamroller: 3.0.2
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /loupe/2.3.4:
+    resolution: {integrity: sha512-OvKfgCC2Ndby6aSTREl5aCCPTNIzlDfQZvZxNUrBrihDhL3xcrYegTblhmEiCrg2kKQz4XsFIaemE5BF4ybSaQ==}
+    dependencies:
+      get-func-name: 2.0.0
     dev: true
 
   /lowercase-keys/1.0.1:
