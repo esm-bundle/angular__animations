@@ -34,6 +34,28 @@ https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-anim
 
 https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.min.js
 
+### @angular/animations/browser
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.min.js
+
+https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.js
+
+https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.min.js
+
+https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.js
+
+https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.min.js
+
 ## Specific Version
 
 https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations@11.1.1/system/es2015/ivy/angular-animations.js
