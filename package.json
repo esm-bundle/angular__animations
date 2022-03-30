@@ -8,6 +8,11 @@
       "es2015": "./es2015/ivy/angular-animations.js",
       "es2020": "./es2020/ivy/angular-animations.js",
       "default": "./es2020/ivy/angular-animations.js"
+    },
+    "./browser": {
+      "es2015": "./es2015/ivy/angular-browser.js",
+      "es2020": "./es2020/ivy/angular-browser.js",
+      "default": "./es2020/ivy/angular-browser.js"
     }
   },
   "scripts": {

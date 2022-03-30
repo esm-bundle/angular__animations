@@ -40,6 +40,11 @@ const packages = ["2015", "2020"]
       angularPackage: "@angular/animations",
       filename: "animations",
     },
+    {
+      ecma,
+      angularPackage: "@angular/animations/browser",
+      filename: "browser",
+    },
   ])
   .flat();
 
@@ -95,6 +100,11 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
           },
         }),
     ],
-    external: ["rxjs", "rxjs/operators", "@angular/core"],
+    external: [
+      "rxjs",
+      "rxjs/operators",
+      "@angular/core",
+      "@angular/animations",
+    ],
   };
 }
