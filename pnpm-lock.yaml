@@ -19,12 +19,12 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.70.2
   rollup-plugin-terser: 7.0.2
-  typescript: 4.6.3
+  typescript: 4.6.4
 
 devDependencies:
   '@angular/animations': 13.3.4_@angular+core@13.3.4
   '@angular/compiler': 13.3.4
-  '@angular/compiler-cli': 13.3.4_f21c7a3178639b7471296fac11e355ee
+  '@angular/compiler-cli': 13.3.4_4eb494c2b3fe374265bfca0a69bbe884
   '@angular/core': 13.3.4
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.2
   concurrently: 7.1.0
@@ -40,7 +40,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.70.2
   rollup-plugin-terser: 7.0.2_rollup@2.70.2
-  typescript: 4.6.3
+  typescript: 4.6.4
 
 packages:
 
@@ -61,7 +61,7 @@ packages:
       tslib: 2.3.1
     dev: true
 
-  /@angular/compiler-cli/13.3.4_f21c7a3178639b7471296fac11e355ee:
+  /@angular/compiler-cli/13.3.4_4eb494c2b3fe374265bfca0a69bbe884:
     resolution: {integrity: sha512-wCnt2YOS5EiwWCEv8oCqIfiwUtifs+COhcYH6fpmf/3X9w1yKO1ZMA+OsFQ0IVS4d0YYavm5DTPQ2ep2c0sF5w==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
@@ -79,7 +79,7 @@ packages:
       semver: 7.3.6
       sourcemap-codec: 1.4.8
       tslib: 2.3.1
-      typescript: 4.6.3
+      typescript: 4.6.4
       yargs: 17.4.0
     transitivePeerDependencies:
       - supports-color
@@ -3097,8 +3097,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.6.3:
-    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
