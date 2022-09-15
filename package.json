@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__animations",
-  "version": "14.2.1",
+  "version": "14.2.2",
   "description": "ESM and SystemJS versions of @angular/animations",
   "type": "module",
   "exports": {
