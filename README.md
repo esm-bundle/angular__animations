@@ -14,47 +14,27 @@ Upstream repo at https://github.com/joeldenning/angular__animations.
 
 ### @angular/animations
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-animations.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2022/ivy/angular-animations.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-animations.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2022/ivy/angular-animations.min.js
 
-https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-animations.js
+https://unpkg.com/@esm-bundle/angular__animations/system/es2022/ivy/angular-animations.js
 
-https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-animations.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.min.js
-
-https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.js
-
-https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-animations.min.js
+https://unpkg.com/@esm-bundle/angular__animations/system/es2022/ivy/angular-animations.min.js
 
 ### @angular/animations/browser
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2022/ivy/angular-browser.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2022/ivy/angular-browser.min.js
 
-https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.js
+https://unpkg.com/@esm-bundle/angular__animations/system/es2022/ivy/angular-browser.js
 
-https://unpkg.com/@esm-bundle/angular__animations/system/es2015/ivy/angular-browser.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.min.js
-
-https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.js
-
-https://unpkg.com/@esm-bundle/angular__animations/system/es2020/ivy/angular-browser.min.js
+https://unpkg.com/@esm-bundle/angular__animations/system/es2022/ivy/angular-browser.min.js
 
 ## Specific Version
 
