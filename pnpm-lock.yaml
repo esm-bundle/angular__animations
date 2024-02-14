@@ -4,7 +4,7 @@ overrides:
   terser: 5.17.6
 
 specifiers:
-  '@angular/animations': 17.2.0
+  '@angular/animations': 17.2.1
   '@angular/compiler': 17.2.0
   '@angular/compiler-cli': 17.2.0
   '@angular/core': 17.2.0
@@ -25,7 +25,7 @@ specifiers:
   typescript: 5.3.3
 
 devDependencies:
-  '@angular/animations': 17.2.0_@angular+core@17.2.0
+  '@angular/animations': 17.2.1_@angular+core@17.2.0
   '@angular/compiler': 17.2.0_@angular+core@17.2.0
   '@angular/compiler-cli': 17.2.0_44nsiioncuhl2ymcpx66m3qqrq
   '@angular/core': 17.2.0
@@ -55,11 +55,11 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/animations/17.2.0_@angular+core@17.2.0:
-    resolution: {integrity: sha512-gUdkZMnZ4aXcOnzGv8JeYy2Y+2HaFaf+r7LB7ctSo1eIe6XslENo8m4B0IywCZIwbQMnjaO7N+L6FCPcO7/4bg==}
+  /@angular/animations/17.2.1_@angular+core@17.2.0:
+    resolution: {integrity: sha512-JCccG8EPM04OtN+Wayi79QnbkCYpKY69okWjEM7cPq8fbjIQE/ZAWxnzYMR/Xq3prwUtlH7LMyB5YdYCc6Ea1A==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.2.0
+      '@angular/core': 17.2.1
     dependencies:
       '@angular/core': 17.2.0
       tslib: 2.6.2
