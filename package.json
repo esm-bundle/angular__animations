@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__animations#readme",
   "devDependencies": {
-    "@angular/animations": "17.2.0",
+    "@angular/animations": "17.2.1",
     "@angular/compiler": "17.2.0",
     "@angular/compiler-cli": "17.2.0",
     "@angular/core": "17.2.0",
