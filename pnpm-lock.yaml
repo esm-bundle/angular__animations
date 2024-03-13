@@ -4,10 +4,10 @@ overrides:
   terser: 5.17.6
 
 specifiers:
-  '@angular/animations': 17.2.4
-  '@angular/compiler': 17.2.4
-  '@angular/compiler-cli': 17.2.4
-  '@angular/core': 17.2.4
+  '@angular/animations': 17.3.0
+  '@angular/compiler': 17.3.0
+  '@angular/compiler-cli': 17.3.0
+  '@angular/core': 17.3.0
   '@rollup/plugin-babel': 6.0.4
   concurrently: 8.2.2
   husky: 9.0.11
@@ -25,10 +25,10 @@ specifiers:
   typescript: 5.4.2
 
 devDependencies:
-  '@angular/animations': 17.2.4_@angular+core@17.2.4
-  '@angular/compiler': 17.2.4_@angular+core@17.2.4
-  '@angular/compiler-cli': 17.2.4_kyls4dan4gehepvlcj4quua3f4
-  '@angular/core': 17.2.4
+  '@angular/animations': 17.3.0_@angular+core@17.3.0
+  '@angular/compiler': 17.3.0_@angular+core@17.3.0
+  '@angular/compiler-cli': 17.3.0_jsrvlxgsepk2zc6qkgljorfoky
+  '@angular/core': 17.3.0
   '@rollup/plugin-babel': 6.0.4_rollup@4.13.0
   concurrently: 8.2.2
   husky: 9.0.11
@@ -55,25 +55,25 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/animations/17.2.4_@angular+core@17.2.4:
-    resolution: {integrity: sha512-eTjD8XeioL1Xj+W6iQayOh2JBCfjkg+MG3wzyEW0jhetE/N+wm2xbI1aub2pYplKsu96hOih3lfowYt7qIKGfw==}
+  /@angular/animations/17.3.0_@angular+core@17.3.0:
+    resolution: {integrity: sha512-H7R3c2E479CPpaX6bU84F8u4JV+IFEfM8BUOgrbcI9tF16m6C2eJbl8IqNuW0yADuTarRSlOT7TW0qyrmcxhRw==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.2.4
+      '@angular/core': 17.3.0
     dependencies:
-      '@angular/core': 17.2.4
+      '@angular/core': 17.3.0
       tslib: 2.6.2
     dev: true
 
-  /@angular/compiler-cli/17.2.4_kyls4dan4gehepvlcj4quua3f4:
-    resolution: {integrity: sha512-VGQx1YoYuifQZNj2/nGMEyYVYvXSWrt1ZXK43dgxPDH3jCWNncOBUYtmyCmYvxKvDz0aDO3KL8cro8c4+N0pPw==}
+  /@angular/compiler-cli/17.3.0_jsrvlxgsepk2zc6qkgljorfoky:
+    resolution: {integrity: sha512-ewo+pb0QUC69Ey15z4vPteoBeO81HitqplysOoeXbyVBjMnKmZl3343wx7ukgcI97lmj4d38d1r4AnIoO5n/Vw==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 17.2.4
-      typescript: '>=5.2 <5.4'
+      '@angular/compiler': 17.3.0
+      typescript: '>=5.2 <5.5'
     dependencies:
-      '@angular/compiler': 17.2.4_@angular+core@17.2.4
+      '@angular/compiler': 17.3.0_@angular+core@17.3.0
       '@babel/core': 7.23.9
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
@@ -87,21 +87,21 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/17.2.4_@angular+core@17.2.4:
-    resolution: {integrity: sha512-McSsBcoHhMkaQpHM5/wTosAKTzJY5uE6ji3z+ec5GrIJhV7jrVfa67+RUoUzHe+rlD/7oQbX1L/OaHKDP8+/mA==}
+  /@angular/compiler/17.3.0_@angular+core@17.3.0:
+    resolution: {integrity: sha512-lZBD5mFq7SzFJydZwW2jvnQGmtcU1s3e548hl4MSZpRgt13m5UmBQKbyMOvVN2WxKvWKlmDlywsAJlMSXepYig==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.2.4
+      '@angular/core': 17.3.0
     peerDependenciesMeta:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 17.2.4
+      '@angular/core': 17.3.0
       tslib: 2.6.2
     dev: true
 
-  /@angular/core/17.2.4:
-    resolution: {integrity: sha512-5Bko+vk7H1Ce57MHuRcpZtq2Srq5euufSvwg0piPozp0yYmCqNoYN7c128kgi6PbiPQeAnKRzRbEuYd1YCU4Tw==}
+  /@angular/core/17.3.0:
+    resolution: {integrity: sha512-umwsNFl/wEMTCUVvNl5iieEgHA+ESxSMcjedZGFWNGnpUxKTgYFYNG41/1wNZfPrS0+uRPHuYU9IHD+NR2s/Rw==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -235,11 +235,6 @@ packages:
       '@babel/types': 7.23.9
     dev: true
 
-  /@babel/helper-string-parser/7.22.5:
-    resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-string-parser/7.23.4:
     resolution: {integrity: sha512-803gmbQdqwdf4olxrX4AJyFBV/RTr3rSmOj0rKwesmzlfhYNDEs+/iOcznzpNWlJlIlTJC2QfPFcHB6DlzdVLQ==}
     engines: {node: '>=6.9.0'}
@@ -321,7 +316,7 @@ packages:
     resolution: {integrity: sha512-zo3MIHGOkPOfoRXitsgHLjEXmlDaD/5KU1Uzuc9GNiZPhSqVxVRtxuPaSBZDsYZ9qV88AjtMtWW7ww98loJ9KA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-string-parser': 7.22.5
+      '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: true
