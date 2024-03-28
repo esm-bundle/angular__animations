@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@angular/animations': 17.3.1
   '@angular/compiler': 17.3.2
-  '@angular/compiler-cli': 17.3.1
+  '@angular/compiler-cli': 17.3.2
   '@angular/core': 17.3.1
   '@rollup/plugin-babel': 6.0.4
   concurrently: 8.2.2
@@ -27,7 +27,7 @@ specifiers:
 devDependencies:
   '@angular/animations': 17.3.1_@angular+core@17.3.1
   '@angular/compiler': 17.3.2_@angular+core@17.3.1
-  '@angular/compiler-cli': 17.3.1_yy6cdubdtmeqxmza2ixpnasutm
+  '@angular/compiler-cli': 17.3.2_yy6cdubdtmeqxmza2ixpnasutm
   '@angular/core': 17.3.1
   '@rollup/plugin-babel': 6.0.4_rollup@4.13.2
   concurrently: 8.2.2
@@ -65,12 +65,12 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@angular/compiler-cli/17.3.1_yy6cdubdtmeqxmza2ixpnasutm:
-    resolution: {integrity: sha512-xLV9KU+zOpe57/2rQ59ku21EaStNpLSlR9+qkDYf8JR09fB+W9vY3UYbpi5RjHxAFIZBM5D9SFQjjll8rch26g==}
+  /@angular/compiler-cli/17.3.2_yy6cdubdtmeqxmza2ixpnasutm:
+    resolution: {integrity: sha512-PG81BrJjeF679tkafjt+t9VEBE1rPq39cdLoBTnPY7Q+E/thVoem5JTRG6hmnLmwEc0xxY6sfYpvx2BB5ywUSA==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 17.3.1
+      '@angular/compiler': 17.3.2
       typescript: '>=5.2 <5.5'
     dependencies:
       '@angular/compiler': 17.3.2_@angular+core@17.3.1
