@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 overrides:
-  terser: 5.17.6
+  terser: 5.30.4
 
 specifiers:
   '@angular/animations': 17.3.5
@@ -776,8 +776,8 @@ packages:
       negotiator: 0.6.2
     dev: true
 
-  /acorn/8.7.1:
-    resolution: {integrity: sha512-Xx54uLJQZ19lKygFXOWsscKUbsBZW0CPykPhVQdhIeIwrbPmJzqeASDInc8nKBnp/JT6igTs82qPXz069H8I/A==}
+  /acorn/8.11.3:
+    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -3488,7 +3488,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 4.16.4
       serialize-javascript: 4.0.0
-      terser: 5.17.6
+      terser: 5.30.4
     dev: true
 
   /rollup/4.16.4:
@@ -3875,13 +3875,13 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /terser/5.17.6:
-    resolution: {integrity: sha512-V8QHcs8YuyLkLHsJO5ucyff1ykrLVsR4dNnS//L5Y3NiSXpbK1J+WMVUs67eI0KTxs9JtHhgEQpXQVHlHI92DQ==}
+  /terser/5.30.4:
+    resolution: {integrity: sha512-xRdd0v64a8mFK9bnsKVdoNP9GQIKUAaJPTaqEQDL4w/J8WaW4sWXXoMZ+6SimPkfT5bElreXf8m9HnmPc3E1BQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.3
-      acorn: 8.7.1
+      acorn: 8.11.3
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
