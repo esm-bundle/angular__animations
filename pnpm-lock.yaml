@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 overrides:
-  terser: 5.42.0
+  terser: 5.43.0
 
 specifiers:
   '@angular/animations': 20.0.3
@@ -2665,7 +2665,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 4.43.0
       serialize-javascript: 4.0.0
-      terser: 5.42.0
+      terser: 5.43.0
     dev: true
 
   /rollup/4.43.0:
@@ -2940,8 +2940,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /terser/5.42.0:
-    resolution: {integrity: sha512-UYCvU9YQW2f/Vwl+P0GfhxJxbUGLwd+5QrrGgLajzWAtC/23AX0vcise32kkP7Eu0Wu9VlzzHAXkLObgjQfFlQ==}
+  /terser/5.43.0:
+    resolution: {integrity: sha512-CqNNxKSGKSZCunSvwKLTs8u8sGGlp27sxNZ4quGh0QeNuyHM0JSEM/clM9Mf4zUp6J+tO2gUXhgXT2YMMkwfKQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
