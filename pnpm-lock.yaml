@@ -4,10 +4,10 @@ overrides:
   terser: 5.43.1
 
 specifiers:
-  '@angular/animations': 20.1.0
-  '@angular/compiler': 20.1.0
-  '@angular/compiler-cli': 20.1.0
-  '@angular/core': 20.1.0
+  '@angular/animations': 20.1.1
+  '@angular/compiler': 20.1.1
+  '@angular/compiler-cli': 20.1.1
+  '@angular/core': 20.1.1
   '@rollup/plugin-babel': 6.0.4
   concurrently: 9.2.0
   husky: 9.1.7
@@ -25,10 +25,10 @@ specifiers:
   typescript: 5.8.3
 
 devDependencies:
-  '@angular/animations': 20.1.0_@angular+core@20.1.0
-  '@angular/compiler': 20.1.0
-  '@angular/compiler-cli': 20.1.0_prmvh5gh7vp6udhwme26qj5ej4
-  '@angular/core': 20.1.0_@angular+compiler@20.1.0
+  '@angular/animations': 20.1.1_@angular+core@20.1.1
+  '@angular/compiler': 20.1.1
+  '@angular/compiler-cli': 20.1.1_j4kf3zzw4ipzd4lqt6h2mqrdwy
+  '@angular/core': 20.1.1_@angular+compiler@20.1.1
   '@rollup/plugin-babel': 6.0.4_rollup@4.45.1
   concurrently: 9.2.0
   husky: 9.1.7
@@ -51,35 +51,35 @@ packages:
     resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
+      '@jridgewell/gen-mapping': 0.3.12
+      '@jridgewell/trace-mapping': 0.3.29
     dev: true
 
-  /@angular/animations/20.1.0_@angular+core@20.1.0:
-    resolution: {integrity: sha512-5ILngsvu5VPQYaIm7lRyegZaDaAEtLUIPSS8h1dzWPaCxBIJ4uwzx9RDMiF32zhbxi+q0mAO2w2FdDlzWTT3og==}
+  /@angular/animations/20.1.1_@angular+core@20.1.1:
+    resolution: {integrity: sha512-uM6UQ4AhFMyFm9ZMWV0823ddvhJeTLkJaR6e9Vdm60dlwgxNmkhVPW9rg60vQy6FTVL2YieHIh/V0M1iwKbzxQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/common': 20.1.0
-      '@angular/core': 20.1.0
+      '@angular/common': 20.1.1
+      '@angular/core': 20.1.1
     dependencies:
-      '@angular/core': 20.1.0_@angular+compiler@20.1.0
+      '@angular/core': 20.1.1_@angular+compiler@20.1.1
       tslib: 2.8.1
     dev: true
 
-  /@angular/compiler-cli/20.1.0_prmvh5gh7vp6udhwme26qj5ej4:
-    resolution: {integrity: sha512-ajbCmvYYFxeXRdKSfdHjp62MZ2lCMUS0UzswBDAbT9sPd/ThppbvLXLsMBj8SlwaXSSBeTAa1oSHEO1MeuVvGQ==}
+  /@angular/compiler-cli/20.1.1_j4kf3zzw4ipzd4lqt6h2mqrdwy:
+    resolution: {integrity: sha512-88W5wzC9Kb8Etos1sZNmiDchxAdQVNwm+4RZl4fQQT+PXO/YdThkUj0IQlkgTMyAONntQcMzU4VeRr9EN5g1kQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       typescript: '>=5.8 <5.9'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       '@babel/core': 7.28.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.4
       chokidar: 4.0.3
       convert-source-map: 1.8.0
       reflect-metadata: 0.2.1
@@ -91,18 +91,18 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/20.1.0:
-    resolution: {integrity: sha512-sM8H3dJotIDDmI1u8qGuAn16XVfR7A4+/5s5cKLI/osnnIjafi5HHqAf76R5IlGoIv0ZHVQIYaJ/Qdvfyvdhfg==}
+  /@angular/compiler/20.1.1:
+    resolution: {integrity: sha512-w5Uf8gBiD4PWOHWq9c0YeYs5HQaOXqNK9dgKdeY10XNQ2bAzdROLupKjJ7fj5pil3wP/cYdaQh9f4t3URz7I/g==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     dependencies:
       tslib: 2.8.1
     dev: true
 
-  /@angular/core/20.1.0_@angular+compiler@20.1.0:
-    resolution: {integrity: sha512-/dJooZi+OAACkjWgGMPrOOGikdtlTJXwdeXPJTgZSUD5L8oQMbhZFG0XW/1Hldvsti87wPjZPz67ivB7zR86VA==}
+  /@angular/core/20.1.1_@angular+compiler@20.1.1:
+    resolution: {integrity: sha512-7zzULRROtejS7AlLqG7fpzlebLd+FoE1eV3QiVD9GOkg+KzuUUbX7WFWmY8HkvS7ye6mSQEWfv4+yYa3AyA9SA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.15.0
     peerDependenciesMeta:
@@ -111,7 +111,7 @@ packages:
       zone.js:
         optional: true
     dependencies:
-      '@angular/compiler': 20.1.0
+      '@angular/compiler': 20.1.1
       tslib: 2.8.1
     dev: true
 
@@ -519,52 +519,27 @@ packages:
       '@jridgewell/trace-mapping': 0.3.29
     dev: true
 
-  /@jridgewell/gen-mapping/0.3.5:
-    resolution: {integrity: sha512-IzL8ZoEDIBRWEzlCcRhOaCupYyN5gdIK+Q6fbFdPDg6HqX6jpkItn7DFIpW9LQzXG6Df9sA7+OKnq0qlz/GaQg==}
-    engines: {node: '>=6.0.0'}
-    dependencies:
-      '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.4.14
-      '@jridgewell/trace-mapping': 0.3.25
-    dev: true
-
   /@jridgewell/resolve-uri/3.1.0:
     resolution: {integrity: sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==}
-    engines: {node: '>=6.0.0'}
-    dev: true
-
-  /@jridgewell/set-array/1.2.1:
-    resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
     dev: true
 
   /@jridgewell/source-map/0.3.3:
     resolution: {integrity: sha512-b+fsZXeLYi9fEULmfBrhxn4IrPlINf8fiNarzTof004v3lFdntdwa9PF7vFJqm3mg7s+ScJMxXaE3Acp1irZcg==}
     dependencies:
-      '@jridgewell/gen-mapping': 0.3.5
-      '@jridgewell/trace-mapping': 0.3.25
-    dev: true
-
-  /@jridgewell/sourcemap-codec/1.4.14:
-    resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
+      '@jridgewell/gen-mapping': 0.3.12
+      '@jridgewell/trace-mapping': 0.3.29
     dev: true
 
   /@jridgewell/sourcemap-codec/1.5.4:
     resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
     dev: true
 
-  /@jridgewell/trace-mapping/0.3.25:
-    resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-    dependencies:
-      '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
-    dev: true
-
   /@jridgewell/trace-mapping/0.3.29:
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.5.4
     dev: true
 
   /@nodeutils/defaults-deep/1.1.0:
